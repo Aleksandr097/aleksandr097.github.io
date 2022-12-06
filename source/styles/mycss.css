@@ -1,0 +1,56 @@
+body{
+    
+}
+.collapse.navbar-collapse{
+    justify-content: space-between;
+}
+.navbar-brand img{
+    width: 30px;
+    height: 30px;
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+.navbar-nav .nav-link.active{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.navbar-nav .nav-link.disabled{
+    color: rgb(117, 117, 117);
+    font-weight: bold;
+}
+.d-flex{
+ position: relative;
+}
+.btn.btn-outline-success{
+    border-color: white;
+    color: white;
+}
+.btn.btn-outline-success:hover{
+    background-color: white;
+    color: black;
+}
+.navbar-toggler {
+    background-color: white;
+}
+.card{
+    border-color: rgb(67, 67, 67);
+    box-shadow: 5px 5px 10px 1px #9C9797;
+}
+.card a{
+text-decoration: none ;    
+}
+.slide-text{
+    color: black;
+    margin: auto auto;
+}
+.carousel.slide{
+    background-color:white;
+}
+.row.px-2{
+    margin-right: 2px;
+    background-color: white;
+}
+.sidebar{
+    padding: 15px;
+}
